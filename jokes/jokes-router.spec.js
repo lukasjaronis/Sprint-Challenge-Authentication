@@ -1,4 +1,4 @@
-const request = require('superset');
+const request = require("supertest");
 const server = require('../api/server.js');
 
 const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJsdWthc2oiLCJwYXNzd29yZCI6IiQyYSQxMiRYc1pBdFRmdlNSVDlDM2s4NlouQVBlV0NMcHgwckpnYXM0ajFTa21EWUE2YjV5WjE0NkkvUyIsImlhdCI6MTU4MDQ4OTkzNSwiZXhwIjoxNTgwNTc2MzM1fQ.deGLCw1aYE-DUNF1frVyzngHH3EAnSApEa3csX-x2rE';
