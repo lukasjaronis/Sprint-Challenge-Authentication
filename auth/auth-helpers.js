@@ -14,7 +14,7 @@ function validateUser(user) {
     }
 
     return {
-        isSuccesfull: errors.length > 0 ? false : true,
+        isSuccessfull: errors.length > 0 ? false : true,
         errors
     };
 }
